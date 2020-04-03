@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1034980778271",
+    "firebase_url": "https://guru2oreo.firebaseio.com",
+    "project_id": "guru2oreo",
+    "storage_bucket": "guru2oreo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1034980778271:android:e41de650c5454418",
+        "android_client_info": {
+          "package_name": "lesson.swu.oreoz_final_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1034980778271-qk0behu3je21io8btlt1anabpoao52mg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "lesson.swu.oreoz_final_project",
+            "certificate_hash": "2311d4d97fd1660edbcef48f497d7533587dd206"
+          }
+        },
+        {
+          "client_id": "1034980778271-dfpejdra1agrhe9ptm9g8raarr406kt7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAr_sSkSCeWUKqTI3shmNWx5h3bLiUiIa8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1034980778271-dfpejdra1agrhe9ptm9g8raarr406kt7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

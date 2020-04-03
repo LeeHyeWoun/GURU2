@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.MemoTab1Fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <EditText
+        android:id="@+id/edtMemo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:editable="false"
+        android:ems="10"
+        android:fontFamily="@font/gd1"
+        android:gravity="top"
+        android:hint="글을 작성해 주세요."
+        android:inputType="textMultiLine"
+        android:textColor="#ff002d57" />
+</FrameLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.Detail2Fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#f9ebec"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <EditText
+                android:id="@+id/edtComment"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="6"
+                android:background="@drawable/design_search_edttext"
+                android:ems="10"
+                android:hint=" 댓글을 작성해주세요."
+                android:inputType="textMultiLine"
+                android:maxLength="30"
+                android:paddingLeft="10dp"
+                android:paddingBottom="10dp"
+                android:textColorHint="#888888" />
+
+            <Button
+                android:id="@+id/btnUpload"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="입력" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/commentList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+</FrameLayout>

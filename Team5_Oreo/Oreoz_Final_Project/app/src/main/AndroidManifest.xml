@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="lesson.swu.oreoz_final_project">
+
+    <application
+        android:allowBackup="true"
+
+        android:icon="@mipmap/ic_launcher"
+        android:label="SWU LIB"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".JoinActivity" />
+        <activity
+            android:name=".LoadingActivity"
+            android:windowSoftInputMode="adjustNothing">
+            //키보드 실행시 화면 고정
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter></activity>
+        <activity android:name=".SearchActivity" />
+        <activity android:name=".MemberActivity" />
+        <activity android:name=".ScrapActivity" />
+        <activity android:name=".CommentActivity" />
+        <activity android:name=".DetailActivity"
+            android:windowSoftInputMode="adjustNothing"/>
+        <activity android:name=".SearchContentActivity"/>
+        <activity android:name=".BookpositionActivity"/>
+        <activity android:name=".Bookposition2Activiry"/>
+
+
+    </application>
+
+</manifest>
